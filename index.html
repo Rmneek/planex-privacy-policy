@@ -34,14 +34,20 @@ when you use the Plan Execute Next mobile application.
 <h2>3. Notifications & Alarms</h2>
 <p>
 Plan Execute Next sends notifications only after the user explicitly enables them.
-These notifications include task reminders and a daily summary at a user-selected time.
+These notifications include task reminders and a daily summary.
+</p>
+
+<p>
+The daily summary notification is delivered at a predefined time (currently 10:30 AM)
+to provide users with a consistent overview of their completed and pending tasks.
 </p>
 
 <p>The app may request the following permissions:</p>
+
 <ul>
-  <li><strong>POST_NOTIFICATIONS</strong> – to display reminders and summaries</li>
-  <li><strong>RECEIVE_BOOT_COMPLETED</strong> – to restore scheduled reminders after device restart</li>
-  <li><strong>SCHEDULE_EXACT_ALARM</strong> – to deliver reminders and daily summaries at the exact time selected by the user (for example, 8:00 AM)</li>
+  <li><strong>POST_NOTIFICATIONS</strong> – to display reminders and daily summaries</li>
+  <li><strong>RECEIVE_BOOT_COMPLETED</strong> – to restore scheduled notifications after device restart</li>
+  <li><strong>SCHEDULE_EXACT_ALARM</strong> – to deliver reminders and daily summaries at a specific predefined time (for example, 10:30 AM)</li>
 </ul>
 
 <p>
